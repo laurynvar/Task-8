@@ -13,8 +13,12 @@ function calculator() {
   this.subtract = function (a, b) {
     return a - b;
   };
+  this.multiply = function (a, b) {
+    return a * b;
+  };
 }
 
 const calculate = new calculator();
 console.log(calculate.sum(10, 20));
 console.log(calculate.subtract(10, 20));
+console.log(calculate.multiply(10, 20));
